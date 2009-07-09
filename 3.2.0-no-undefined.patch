@@ -1,0 +1,13 @@
+--- origsrc/pidgin-otr-3.2.0/Makefile.am	2008-05-27 07:51:40.000000000 -0500
++++ src/pidgin-otr-3.2.0/Makefile.am	2009-07-09 15:25:12.573154500 -0500
+@@ -11,8 +11,8 @@ plugin_LTLIBRARIES=	pidgin-otr.la
+ 
+ pidgin_otr_la_SOURCES=	otr-plugin.c ui.c dialogs.c gtk-ui.c gtk-dialog.c \
+                         tooltipmenu.c
+-pidgin_otr_la_LDFLAGS=	-module -avoid-version
+-pidgin_otr_la_LDFLAGS+=	@LIBGCRYPT_LIBS@ @LIBOTR_LIBS@
++pidgin_otr_la_LDFLAGS=	-module -avoid-version -no-undefined
++pidgin_otr_la_LDFLAGS+=	@LIBGCRYPT_LIBS@ @LIBOTR_LIBS@ @EXTRA_LIBS@
+ 
+ EXTRA_DIST=		dialogs.h gtk-dialog.h gtk-ui.h otr-plugin.h ui.h \
+ 			otr-icons.h tooltipmenu.h \

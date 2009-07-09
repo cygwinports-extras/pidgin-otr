@@ -1,0 +1,5 @@
+category: Gnome Net
+requires: libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libotr2 libpurple0 pidgin
+sdesc: "Pidgin Off-the-Record Messaging plugin"
+ldesc: "The Off-the-Record (OTR) Messaging plugin allows you to have 
+private conversations over instant messaging in Pidgin."
