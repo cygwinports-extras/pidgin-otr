@@ -1,6 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="Off-the-Record messaging plugin for Pidgin"
-HOMEPAGE="http://www.cypherpunks.ca/otr/"
-SRC_URI="http://www.cypherpunks.ca/otr/${P}.tar.gz"
-PATCH_URI="3.2.0-no-undefined.patch"
