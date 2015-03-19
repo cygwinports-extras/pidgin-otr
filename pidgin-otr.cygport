@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="pidgin-otr"
 VERSION=4.0.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Net"
 SUMMARY="Off-the-Record messaging plugin for Pidgin"
 DESCRIPTION="The Off-the-Record (OTR) Messaging plugin allows you to have
